@@ -1,0 +1,264 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+/* xxl */
+@media (min-width: 1200px) and (max-width: 5464px)
+{	
+	
+	.checkbtn, #check
+	{
+		display: none;
+	}
+	
+	.our_story > div > div.row.g-3 > div:nth-child(1) > figure
+	{
+		width: 200px;
+		float: right;
+		margin: 0px 20px;
+	}
+	
+	.our_story > div > div.row.g-3 > div:nth-child(2) > figure
+	{
+		width: 200px;
+		float: left;
+		margin: 0px 20px;
+	}
+}
+
+
+/* xl */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.checkbtn, #check
+	{
+		display: none;
+	}
+	
+	.our_story > div > div.row.g-3 > div:nth-child(1) > figure
+	{
+		width: 200px;
+		float: right;
+		margin: 0px 20px;
+	}
+	
+	.our_story > div > div.row.g-3 > div:nth-child(2) > figure
+	{
+		width: 200px;
+		float: left;
+		margin: 0px 20px;
+	}
+}
+
+
+/* lg 150% - 175% */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .checkbtn, #check
+	{
+		display: none;
+	}
+
+	._main_article_outer
+	{
+		margin-top: 5px;
+		border: 5px solid #fff;
+		border-radius: 5px;
+		border-style: ridged;
+		padding: 5px;
+		color:#fff;
+		text-align: center;
+		overflow:hidden; /* para hindi tumapon ung text */
+	}
+
+._main_article_inner
+{
+    border: 2px solid #fff;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+._main_article_inner h1
+{
+    font-size: 1.8em;
+}
+
+._main_article_inner h3, h5
+{
+    font-size: 1.2em;
+}
+
+
+	button
+	{
+		border: 1px solid rgb(194, 188, 140);
+		color:rgb(194, 188, 140);
+		font-size: .6em;
+		padding: 4px;
+	}
+	
+	.our_story > div > div.row.g-3 > div:nth-child(1) > figure
+	{
+		width: 200px;
+		float: right;
+		margin: 0px 20px;
+	}
+	
+	.our_story > div > div.row.g-3 > div:nth-child(2) > figure
+	{
+		width: 200px;
+		float: left;
+		margin: 0px 20px;
+	}
+}
+
+/* md - 200% */
+@media (min-width: 576px) and (max-width: 767px)
+{
+	
+	#check, .checkbtn
+	{
+		float: right;
+		font-size: 1.2em;
+		color: #fff;
+	}
+
+	._main_article_outer, #check
+	{
+		display: none;
+	}
+
+	ul
+	{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #2c3e50;
+		top: 0px;
+		left: 100%;
+		text-align: center;
+		transition: all .5s;
+		padding: 0;
+	}
+
+	nav ul li
+	{
+		display: block;
+		line-height: 45px;
+	}
+
+	body > header > div:nth-child(1) > div > nav > ul > li:nth-child(2)
+	{
+		margin-top: 40px;
+	}
+
+	nav ul li a
+	{
+		font-size: 15px;
+		text-decoration: none;
+	}	
+	a.active,a:hover
+	{
+		color: #1b9bff;
+		transition: .5s;
+	}
+
+	#check:checked ~ ul
+	{	
+		left: 0;
+	}
+	
+	#registry div:nth-child(1) > figure > img, #registry div:nth-child(3) > figure > img
+	{
+		float: none;
+	}
+
+	.getting_there iframe
+	{
+    	width: 100%;
+	}
+	 
+}
+
+/* sm */
+@media (max-width: 575px)
+{
+	#check, .checkbtn
+	{
+		float: right;
+		font-size: 1.5em;
+		color: #fff;
+	}
+
+	._main_article_outer, #check
+	{
+		display: none;
+	}
+
+	.the_details, .our_story, .getting_there, .registry
+	{
+    	margin: 0;
+		padding: 20px 0px;
+	}
+
+    ul
+	{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #2c3e50;
+		top: 0px;
+		left: 100%;
+		text-align: center;
+		transition: all .5s;
+		padding: 0;
+	}
+
+	nav ul li
+	{
+		display: block;
+		line-height: 35px;
+	}
+
+	body > header > div:nth-child(1) > div > nav > ul > li:nth-child(2)
+	{
+		margin-top: 40px;
+	}
+
+	nav ul li a
+	{
+		font-size: 12px;
+		text-decoration: none;
+	}
+		
+	a.active,a:hover
+	{
+		color: #1b9bff;
+		transition: .5s;
+	}
+
+	#check:checked ~ ul
+	{	
+		left: 0;
+	}
+
+	#registry div:nth-child(1) > figure > img, #registry div:nth-child(3) > figure > img
+	{
+		float: none;
+	}
+
+	.getting_there iframe
+	{
+    	width: 100%;
+	}
+	
+	#myBtn
+	{
+		bottom: 13px;
+		right: 20px;
+		font-size: 20px;
+		padding: 13px 23px;
+	}
+}
