@@ -12,6 +12,11 @@
 		display: none;
 	}
 	
+	.registry
+	{
+		background-size: cover;
+	}
+	
 	.our_story > div > div.row.g-3 > div:nth-child(1) > figure
 	{
 		width: 200px;
@@ -34,6 +39,11 @@
 	.checkbtn, #check
 	{
 		display: none;
+	}
+	
+	.registry
+	{
+		background-size: cover;
 	}
 	
 	.our_story > div > div.row.g-3 > div:nth-child(1) > figure
@@ -60,6 +70,12 @@
 		display: none;
 	}
 
+	nav ul li
+	{
+		width: 19.5%;
+	}
+
+	
 	._main_article_outer
 	{
 		margin: 10px 0px;
@@ -156,12 +172,15 @@
 	nav ul li
 	{
 		display: block;
-		line-height: 100.4px;
+		line-height: 18vh;
+		width: 100%;
 	}
+	
+	/* 100.39 height */
 
 	body > header > div:nth-child(1) > div > nav > ul > li:nth-child(2)
 	{
-		margin-top: 40px;
+		margin-top: 20vh;
 	}
 
 	nav ul li a
@@ -239,12 +258,13 @@
 	nav ul li
 	{
 		display: block;
-		line-height: 100.4px;
+		line-height: 18vh;
+		width: 100%;
 	}
 
 	body > header > div:nth-child(1) > div > nav > ul > li:nth-child(2)
 	{
-		margin-top: 40px;
+		margin-top: 20vh;
 	}
 
 	nav ul li a
