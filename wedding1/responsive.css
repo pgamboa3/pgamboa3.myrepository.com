@@ -59,6 +59,11 @@
 		float: left;
 		margin: 0px 20px;
 	}
+	
+	.registry .container
+	{
+		width: 60%;
+	}
 }
 
 
@@ -74,26 +79,32 @@
 	{
 		width: 19.5%;
 	}
-
 	
 	._main_article_outer
 	{
-		margin: 10px 0px;
+		margin: 20px 0px;
 		border: 5px solid #fff;
 		border-radius: 5px;
 		border-style: ridged;
 		padding: 5px;
 		color:#fff;
+		width: 500px;
 		text-align: center;
-		overflow:hidden; /* para hindi tumapon ung text */
+
+	}
+
+	body > header > div.container.d-lg-flex.justify-content-end.align-items-center > div
+	{
+		height: 100%;
 	}
 
 ._main_article_inner
 {
     border: 2px solid #fff;
-    padding: 4px;
+    padding: 10px;
     border-radius: 5px;
     margin: 0;
+	width: 480px;
 }
 
 ._main_article_inner h1
@@ -127,6 +138,12 @@
 		width: 200px;
 		float: left;
 		margin: 0px 20px;
+	}
+	
+	.registry .container
+	{
+		width: 75%;
+		
 	}
 }
 
@@ -172,7 +189,7 @@
 	nav ul li
 	{
 		display: block;
-		line-height: 18%;
+		height: 18vh;
 		width: 100%;
 	}
 	
@@ -180,7 +197,7 @@
 
 	body > header > div:nth-child(1) > div > nav > ul > li:nth-child(2)
 	{
-		margin-top: 10%;
+		margin-top: 10vh;
 	}
 
 	nav ul li a
@@ -247,7 +264,7 @@
 	{
 		position: fixed;
 		width: 100%;
-		height: 100vh;
+		height: 100%;
 		background: #c4a66e;
 		top: 0px;
 		left: 100%;
@@ -259,7 +276,7 @@
 	{
 		display: block;
 		width: 100%;
-		height: 25vh;
+		height: 18vh;
 	}
 
 	body > header > div:nth-child(1) > div > nav > ul > li:nth-child(2)
