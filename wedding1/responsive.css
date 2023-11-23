@@ -154,13 +154,13 @@
 	#check, .checkbtn
 	{
 		float: right;
-		font-size: 1.2em;
+		font-size: 1.8em;
 		color: #fff;
 	}
 	
 	.checkbtn
 	{
-		margin: 5px 20px;
+		margin: 20px 20px;
 	}
 
 	._main_article_outer, #check
@@ -234,13 +234,13 @@
 	#check, .checkbtn
 	{
 		float: right;
-		font-size: 1.5em;
+		font-size: 1.8em;
 		color: #fff;
 	}
 	
 	.checkbtn
 	{
-		margin: 2px 20px;
+		margin: 20px 26px;
 	}
 
 	._main_article_outer, #check
