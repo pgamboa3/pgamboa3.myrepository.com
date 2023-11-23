@@ -220,7 +220,8 @@
 	{
 		float: none;
 	}
-	.registry
+
+	.registry .container
 	{
 		width: 100%;
 	}
@@ -320,5 +321,10 @@
 		right: 20px;
 		font-size: 20px;
 		padding: 13px 23px;
+	}
+
+	.registry .container
+	{
+		width: 80%;
 	}
 }
