@@ -224,6 +224,7 @@
 	.registry .container
 	{
 		width: 100%;
+		float: none;
 	}
 
 	.getting_there iframe
@@ -326,5 +327,6 @@
 	.registry .container
 	{
 		width: 80%;
+		float: none;
 	}
 }
