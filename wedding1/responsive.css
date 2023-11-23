@@ -220,6 +220,10 @@
 	{
 		float: none;
 	}
+	.registry
+	{
+		width: 100%;
+	}
 
 	.getting_there iframe
 	{
